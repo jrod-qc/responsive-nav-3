@@ -14,14 +14,14 @@ subNavMobile();
 
 function slideMobileNav() {
     $(".nav-mobile-icon").click(function() {
-        $(".nav-mobile-wrapper").css("right", "0px");
+        $(".nav-mobile-wrapper").css("top", "0px");
     })
 }
 slideMobileNav();
 
 function closeSlideMobileNav() {
     $(".nav-mobile-icon-exit").click(function() {
-        $(".nav-mobile-wrapper").css("right", "-265px");
+        $(".nav-mobile-wrapper").css("top", "-102%");
     })
 }
 closeSlideMobileNav();
